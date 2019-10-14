@@ -6,7 +6,7 @@
 
 When using anonymous functions in React (or similar), it's easy to accidentally cause unnecessary re-renders, as an anonymous function will never equal another. `action-cache` is a type-safe way to wrap a function with its arguments, so that the identity of a given function stays the same across re-renders.
 
-And no, `.bind` does not solve this problem.
+And no, `.bind` does not solve this problem (it reallocates the same function regardless of arguments).
 
 ## Installation
 
@@ -41,7 +41,7 @@ expect(action1).toBe(action2);
 
 ```ts
 import React, { Component } from 'react';
-import { action } from 'action-cache';
+import action from 'action-cache';
 
 interface State {
   list: number[];

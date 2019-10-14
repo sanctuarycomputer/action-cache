@@ -3,7 +3,7 @@ jobs:
   build:
     docker:
       - image: node:8
-    working_directory: ~/guarantee
+    working_directory: ~/action-cache
     steps:
       - checkout
       - run: yarn install

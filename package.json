@@ -1,10 +1,10 @@
 {
-  "name": "access",
-  "version": "1.0.2",
-  "description": "Get deeply nested values from unknown shapes with at-runtime type safety.",
+  "name": "action-cache",
+  "version": "0.0.1",
+  "description": "Never allocate the same JS function twice",
   "main": "./lib/index.js",
   "types": "./lib/index.d.ts",
-  "author": "Conor Davidson <conor@conordavidson.com>",
+  "author": "Hugh Francis <hugh@sanctuary.computer>",
   "license": "MIT",
   "scripts": {
     "build": "tsc --pretty",
