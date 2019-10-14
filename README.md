@@ -1,6 +1,6 @@
 # Action Cache
 
-[![codecov](https://codecov.io/gh/sanctuarycomputer/action-cache/branch/master/graph/badge.svg)](https://codecov.io/gh/sanctuary-computer/action-cache)
+[![codecov](https://codecov.io/gh/sanctuarycomputer/action-cache/branch/master/graph/badge.svg)](https://codecov.io/gh/sanctuarycomputer/action-cache)
 
 #### Never allocate the same function twice
 
